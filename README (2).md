@@ -2,96 +2,95 @@
 
 
 
-# [Project Name] 🎯
+# What-If...? 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: 404 ERROR
 
 
-### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+### Team Member
+
+- Member : Saliha Jibin P - EMEA College of arts and science , Kondotty
 
 ### Project Description
-[2-3 lines about what your project does]
+What If is a useless interactive web experience designed to simulate the endless possibilities created by overthinking. Users choose ridiculous “what if” scenarios and are thrown into unexpected mini-games, sounds, and outcomes that make absolutely no practical difference.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
+Overthinking creates a serious problem: there are simply not enough unnecessary things to worry about.
+
+What if they are annoyed?
+What if that message meant something?
+What if I shouldn't have said that?
+Our project solves this completely unnecessary problem by creating even more things to overthink about.
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+What If turns ordinary overthinking into an interactive experience.
+
+The user selects a suspiciously relatable “what if” thought, and instead of receiving useful advice, the website responds with a completely useless mini-game or unexpected event.
+
+The more the user interacts, the more ridiculous the situation becomes — because apparently, overthinking needed entertainment.
 
 ## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
+Tech Stack
+React 19
+Vite
+TypeScript
+Express server
+Gemini API integration via Google GenAI
+Tailwind styling
+Local Development
+Prerequisites
+Node.js 18+
 
 # Run
-[commands]
+http://localhost:3000
 
-### Project Documentation
-For Software:
+
+# GitHub Pages Deployment
+The app is configured to emit a Pages-compatible build into the docs directory. After building, push the repository and set GitHub Pages to serve from the docs folder.
+
+npm run build
+Then publish from:
+
+main / docs
+Project Structure
+src/
+  App.tsx
+  components/
+  data/
+  utils/
+
+public/
+  favicon.ico
+  favicon.svg
+  sounds/
+
+server.ts
+vite.config.ts
+package.json
+
+
+
+
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="1107" height="900" alt="image" src="https://github.com/user-attachments/assets/ed869246-50f0-412a-b1ae-3fbd3bd04b2f" />
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+*Home Page*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
-For Hardware:
+<img width="1182" height="892" alt="image" src="https://github.com/user-attachments/assets/cdd99cf9-6501-49e9-b671-94f31c510bca" />
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+<img width="1077" height="910" alt="image" src="https://github.com/user-attachments/assets/e6ca8d8f-375b-4f3e-a028-f6b550927369" />
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+  *Game page*
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
