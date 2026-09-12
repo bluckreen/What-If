@@ -1,7 +1,8 @@
 <<<<<<< HEAD
 # WHAT IF...? The Overthinking Machine
 
-![alt text](<Screenshot 2026-09-12 090407.png>)
+![alt text]<img width="1128" height="906" alt="image" src="https://github.com/user-attachments/assets/a46b5eea-39d9-4acb-a966-554f92a25e7e" />
+
 
 A chaotic little overthinking simulator where a harmless thought spirals into absurd levels of paranoia, comedy, and completely useless mini-games.
 
