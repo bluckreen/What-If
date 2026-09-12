@@ -78,7 +78,7 @@ async function preloadFailLaugh(ctx: AudioContext) {
   if (failLaughBuffer || isPreloadingFailLaugh || typeof window === "undefined") return;
   isPreloadingFailLaugh = true;
   try {
-    const res = await fetch("/sounds/fail_laugh.mp3");
+    const res = await fetch("./sounds/fail_laugh.mp3");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.arrayBuffer();
     failLaughBuffer = await ctx.decodeAudioData(data);
@@ -803,7 +803,7 @@ export function playMockingLaughter() {
   // 2. Secondary: Instant HTML5 Audio playback (with audio overlap cloning)
   if (typeof window !== "undefined") {
     try {
-      const audio = new Audio("/sounds/fail_laugh.mp3");
+      const audio = new Audio("./sounds/fail_laugh.mp3");
       audio.volume = 0.95;
       audio.play().then(() => {
         if (ctx && !failLaughBuffer) {
