@@ -111,9 +111,3 @@ package.json
 
 This project is intentionally absurd, playful, and slightly hostile to common sense. The goal is to make the user feel like they are spiraling into a niche digital existential crisis while pressing buttons that should not matter.
 
----
-
-If you want, I can also add a short screenshot section or a deployment workflow for GitHub Actions.
-=======
-
->>>>>>> d555e735744d6a9af58c04e2e15285e29dab4941
