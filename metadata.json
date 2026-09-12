@@ -1,0 +1,6 @@
+{
+  "name": "WHAT IF...? The Overthinking Machine",
+  "description": "An AI-powered overthinking simulator that spirals everyday thoughts into cognitive chaos, concluding in 5 unpredictable, deliciously unfair useless games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

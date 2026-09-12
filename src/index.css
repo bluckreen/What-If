@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-doodle {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', 'Outfit', sans-serif;
+}
+
+/* Playful dot grid background pattern */
+.bg-cream-dots {
+  background-color: #FAF6EB;
+  background-image: radial-gradient(#D6C9B0 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* Neo-brutalist / indie game tactile shadow */
+.shadow-brutal-sm {
+  box-shadow: 2px 2px 0px #1E1B18;
+}
+
+.shadow-brutal {
+  box-shadow: 4px 4px 0px #1E1B18;
+}
+
+.shadow-brutal-lg {
+  box-shadow: 6px 6px 0px #1E1B18;
+}
+
+.shadow-brutal-xl {
+  box-shadow: 8px 8px 0px #1E1B18;
+}
+
+/* Floating wobbly animations */
+@keyframes floatWobbly {
+  0%, 100% {
+    transform: translateY(0) rotate(-1deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(1.5deg);
+  }
+}
+
+.animate-float-wobble {
+  animation: floatWobbly 4s ease-in-out infinite;
+}
+
+@keyframes wiggleChaos {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+.animate-wiggle-subtle {
+  animation: wiggleChaos 2.5s ease-in-out infinite;
+}
