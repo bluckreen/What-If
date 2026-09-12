@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WHAT IF...? The Overthinking Machine
 
 ![alt text](<Screenshot 2026-09-12 090407.png>)
@@ -113,3 +114,6 @@ This project is intentionally absurd, playful, and slightly hostile to common se
 ---
 
 If you want, I can also add a short screenshot section or a deployment workflow for GitHub Actions.
+=======
+
+>>>>>>> d555e735744d6a9af58c04e2e15285e29dab4941
